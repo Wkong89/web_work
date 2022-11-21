@@ -13,7 +13,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div calss="container">
+	<div class="container">
 		<%if(id!= null){ %>
 			<p>
 				<strong><%=id %></strong>님 로그인중
@@ -26,6 +26,8 @@
 		<h1>인덱스 페이지입니다.</h1>
 		<ul>
 			<li><a href="${pageContext.request.contextPath}/users/signupform.jsp">회원가입</a></li>
+			<li><a href="${pageContext.request.contextPath}/users/signupform.jsp">회원전용공간(공부)</a></li>
+			<li><a href="${pageContext.request.contextPath}/users/game.jsp">회원전용공간(게임)</a></li>
 		</ul>
 	</div>
 </body>
