@@ -39,7 +39,7 @@
       <%if(isValid) {%>
          <p class="alert alert-success">
             <strong><%=dto.getId() %></strong> 님 로그인되었습니다.
-            <a href=<%="/index.jsp" %>>홈으로 가기</a>
+            <a href="${pageContext.request.contextPath}/index.jsp">홈으로 가기</a>
          </p>
       <%}else{ %>
          <p class="alert alert-danger">
