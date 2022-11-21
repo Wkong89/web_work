@@ -47,7 +47,7 @@
          </p>
       <%}else{ %>
          <p class="alert alert-danger">
-            회원 정보 추가 실패! 
+           <strong><%=name %></strong>님의 회원 정보 추가 실패! 
             <a class="alert-link" href="insertform.jsp">다시 입력하러 가기</a>
             <a class="alert-link" href="${pageContext.request.contextPath }/member/insertform.jsp">다시 입력하러 가기</a>
          </p>
